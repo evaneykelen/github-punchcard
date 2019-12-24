@@ -20,7 +20,7 @@ data =
 
 RECT_SIZE = 40
 
-svg = Victor::SVG.new(width: '100%', height: '100%', style: { background: 'white' })
+svg = Victor::SVG.new(width: '1120', height: '370', viewBox: "0 0 1120 370")
 
 svg.build do
 
